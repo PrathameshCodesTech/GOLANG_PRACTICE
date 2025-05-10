@@ -10,6 +10,8 @@ import (
 
 // variable declarations
 
+// variables holds two things a memory Locations and a Value
+
 // Package level variable :- (camelCase)
 var value_3 int = 80
 

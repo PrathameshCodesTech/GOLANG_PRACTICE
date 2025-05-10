@@ -18,6 +18,9 @@ func main() {
 		i++
 	}
 
+
+
+
 	// using slice
 
 	nums := []int{10, 20, 30}
@@ -39,7 +42,8 @@ func main() {
 		fmt.Println(a,b)
 	}
 
-
-
-
+	m2 := map[string]int{"a":12,"c":24}
+	for _,b:=range m2{
+		fmt.Println(b)
+	}
 }
